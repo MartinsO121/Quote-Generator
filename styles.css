@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nerko One';
+}
+
+body {
+    background-color: #222;
+}
+
+.random-quote-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 650px;
+    height: 250px;
+    background-color: #a18267;
+    margin: 100px auto 0;
+    border-radius: 30px;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quote-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    word-break: break-word;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.author-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.author-picture-container {
+    display: flex; 
+    max-width: 350px;
+    max-height: 250px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.author-picture-container > img {
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.author-name-container {
+    font-size: 23px;
+    text-align: center;
+}
+
+.line {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    border-radius: 30px;
+    border: solid 3px #856d58;
+    
+}
+
+.specific-quotes-container {
+    display: flex;
+    max-width: 550px;
+    margin: 10px auto 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.humour, .love, .motivation, .life {
+    font-size: 25px;
+    color: #856d58;
+    cursor: pointer;
+}
